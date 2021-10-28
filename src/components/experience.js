@@ -4,11 +4,13 @@ const tempStyles = {
     minHeight: "500px"
 }
 
-export default function Layout() {
+const ExperienceBlock = () => {
  
   return (
     <div id="experience" style={tempStyles}>
-        Experience
+        <h2>Experience</h2>
     </div>
   )
 }
+
+export default ExperienceBlock;

@@ -4,11 +4,13 @@ const tempStyles = {
     minHeight: "500px"
 }
 
-export default function Layout() {
+const ContactBlock = () => {
  
   return (
     <div id="contact-me" style={tempStyles}>
-        Contact
+        <h2>Contact me</h2>
     </div>
   )
 }
+
+export default ContactBlock;

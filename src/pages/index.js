@@ -10,19 +10,12 @@ const IndexPage = () => {
   return (
     <Layout>
       <Helmet >
-        
-      </Helmet>
 
+      </Helmet>
       <main>
-       
-       
-       
-       
         <About />
         <Contact />
         <Experience />
-
-        Dog and board games
       </main>
     </Layout>
   )
