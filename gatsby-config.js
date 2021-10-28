@@ -1,13 +1,12 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Tyler Portfolio",
-    github: {
-      url: "https://github.com/TylerOrtiz"
+    siteUrl: "https://tyler-ortiz.com",
+    title: "Tyler Ortiz",
+    social: {
+      github: "https://github.com/TylerOrtiz",
+      linkedin: "https://www.linkedin.com/in/tylerortiz89/"
     },
-    linkedin: {
-      url: "https://www.linkedin.com/in/tylerortiz89/"
-    }
+    resume: "/TylerOrtiz-Resume.pdf"
   },
   plugins: [
     {
@@ -18,6 +17,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-postcss`,
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-anchor-links`
   ],
 };
