@@ -3,5 +3,7 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "Tyler Portfolio",
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-layout'
+  ],
 };
