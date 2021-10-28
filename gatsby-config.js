@@ -4,6 +4,7 @@ module.exports = {
     title: "Tyler Portfolio",
   },
   plugins: [
-    'gatsby-plugin-postcss'
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-react-helmet`
   ],
 };
